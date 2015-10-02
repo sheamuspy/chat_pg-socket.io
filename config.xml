@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
   <widget xmlns="http://www.w3.org/ns/widgets"
   xmlns:gap = "http://phonegap.com/ns/1.0"
-  id = "com.sheamuspy.pg1"
+  id = "com.sheamuspy.chat"
   versionCode = "11"
-  version = "1.0.1">
+  version = "1.0.0">
     <!-- versionCode is optional and Android only -->
-    <name>Phone Gap practice1</name>
+    <name>Chat app</name>
     <description>
-      Demo phone for MWC fall 2015
+      For simple chat
     </description>
     <author href="http://www.ashesi.edu.gh" email="sheamuspy@gmail.com">
       Sheamus Punch Yebisi
