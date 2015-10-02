@@ -1,0 +1,6 @@
+{
+    "name": "socket-chat-application",
+    "version": "0.0.1",
+    "description": "Än application which will allow users to communicate",
+    "dependencies": {}
+}
