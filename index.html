@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
-        <link rel="stylesheet" href="custom_theme.min.css">
-        <link rel="stylesheet" href="jquery.mobile.icons.min">
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
     </head>
     <body>
         <div data-role="page" id="pageone" data-theme="a">
@@ -16,14 +14,14 @@
                     <input id="m" autocomplete="off" /><button>Send</button>
                 </form>
             </div>
-            <div data-role="footer">
+            <div data-role="footer" data-postion="absolute">
                 <h1>Chataway</h1>
             </div>
         </div>
         <script src="https://cdn.socket.io/socket.io-1.2.0.js/socket.io.js"></script>
         <script src="/socket.io/socket.io.js"></script>
-        <script src="jquery-2.1.3.js"></script>
-        <script src="jquery.mobile-1.4.5.min.js"></script>
+        <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
         <script>
             var socket = io();
             $('form').submit(function(){
